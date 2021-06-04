@@ -1,0 +1,24 @@
+@*
+* This template takes a single argument, a String containing a
+* message to display.
+*@
+@(contact: Contact)
+
+@*
+* Call the `main` template with two arguments. The first
+* argument is a `String` with the title of the page, the second
+* argument is an `Html` object containing the body of the page.
+*@
+@main("Contact Form Result") {
+
+    <h1>Contact Form Details</h1>
+    <ul>
+        <li>@contact.firstname</li>
+        <li>@contact.lastname</li>
+        <li>@contact.email</li>
+        <li>@contact.company</li>
+        <li>@contact.newsletter</li>
+    </ul>
+
+
+}

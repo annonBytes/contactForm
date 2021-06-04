@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #fff;
+    color: #555;
+}
+
+body {
+    max-width: 100vw;
+    height: 100vh;
+    width: 800px;
+    padding: 0 50px;
+    margin: 20px;
+}
+
+h1{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 800;
+    font-size: 60px;
+}
+
+form input{
+    width: 100%;
+    padding: 15px 25px;
+    border: 1px solid #000;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+
+#newsletter_field {
+    float: left;
+}
+
+.btn{
+    color: white;
+    background: green;
+}
+
+.btn:hover{
+    background: transparent;
+    border: 1px solid green;
+    color: green;
+}
+
+.error{
+    color: red;
+}
+
+.info{
+    font-weight: 600;
+    margin-bottom: 10px;
+    color:olivedrab;
+}
